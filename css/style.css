@@ -1,0 +1,250 @@
+
+
+
+header{
+    background-color: rgb(169, 76, 10);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo{
+    width: 160px;
+    border-radius: 8px;
+
+
+}
+.nav-item .nav-link {
+color: black;
+font-weight: bold;
+font-size: 18px;
+
+}
+.nav-item{
+    margin-left:10px ;
+}
+.nav-link:hover{
+    border-radius: 5px;
+    transition-duration: .3s;
+    background-color: #ccc;
+    
+} 
+.coffee{
+    margin-top: -400px;
+}
+/* banner */
+#banner{
+   height: 100vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.363)) , url(../images/bc3.png)  , no-repeat ;
+   background-size: cover;
+   background-position:center ;
+ 
+  
+}
+.balandlik{
+    height: 70%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.coffee{
+    color: #ccc;
+
+}
+.btn-home{
+    color: #ccc;
+   
+    width: 160px;
+    padding: 8px 0;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+
+    
+}
+.btn-home:hover{
+    background-color: saddlebrown;
+    color: #ccc;
+    transition: all .5s;
+}
+.b1{
+    font-size: 55px;
+}
+.p1{
+    font-size: 30px;
+}
+.h11{
+   margin: 0 300px ;
+}
+
+
+/* banner */
+/* About start */
+
+.aboutImg{
+  border-radius: 10px;
+
+}
+.btn-about{
+    border-radius: 10px;
+    border-color: #ccc;
+    color: saddlebrown;
+}
+
+
+.btn-about:hover {
+background-color: saddlebrown;
+color: #ccc;
+transition: all .5s;
+
+
+}
+
+.about-text{
+   
+    font-weight: 800;
+}
+
+
+.about-text span{
+    color: saddlebrown;
+    font-size: 30px;
+    font-weight: 700;
+ 
+
+}
+
+/* About end */
+/*  Top Categories start */
+
+.Categories span{
+    color: saddlebrown;
+}
+.Top-img {
+    border-radius: 10px;
+
+}
+
+
+.Top-box{
+    transition: all .5s;
+}
+
+
+
+.Top-box:hover{
+    transform: translateY(-20px);
+}
+
+/*  Top Categories end */
+/* Menu start */
+
+.Menu-text{
+    color: saddlebrown;
+}
+
+
+.Menu-text span{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: saddlebrown;
+}
+.cart{
+    color: saddlebrown;
+    padding: 5px ;
+}
+.cart del{
+    font-size: 18px;
+    font-weight: 700;
+}
+.cart span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Menu end */
+/* Products start */
+
+.Menu-text{
+    color: saddlebrown;
+}
+
+
+.Products{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.cart{
+    color: saddlebrown;
+    padding: 5px ;
+}
+
+.cart del{
+    font-size: 18px;
+    font-weight: 700;
+}
+.cart span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.sdt{
+    display: flex;
+}
+
+/* Products end */
+/* Gallary start */
+
+.Gallary span{
+  color: saddlebrown;
+  font-weight: 700;
+
+}
+.my-3{
+    padding: 7px 5px;
+
+}
+.rasm{
+    width: 200px;
+}
+
+/* Gallary end *
+
+/* Info start */
+
+
+.box1{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.box2{
+    width: 200px;
+    height: 400px;
+    border-radius: 8px;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+
+/* Info end */
+/* Blogs start */
+
+.spm{
+    color: saddlebrown;
+    width: 100%;
+    height: 3px;
+}
+/* Blogs end */
+
+
+
+
+
